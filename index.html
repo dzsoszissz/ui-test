@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sticky Header Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Sticky Header -->
+  <header class="sticky-header">
+    <div class="container">
+      <a href="#" class="logo">🚀 UI Teszt</a>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section id="home" class="hero">
+      <h1>Sziasztok!</h1>
+      <p>Ez egy egyszerű sticky header demo.</p>
+      <p>Görj le az oldalt, hogy lásd a headeret!</p>
+    </section>
+
+    <section id="about" class="about" style="height: 100vh; background-color: #f4f4f4;">
+      <h2>Állapod</h2>
+      <p>A sticky header automatikusan változtat a háttér színén scrolloláskor.</p>
+    </section>
+
+    <section id="services" class="services" style="height: 100vh;">
+      <h2>Szolgáltatások</h2>
+      <p>Webes fejlesztés, UI/UX design, stílusok...</p>
+    </section>
+
+    <section id="contact" class="contact" style="height: 100vh; background-color: #f4f4f4;">
+      <h2>Kapcsolat</h2>
+      <p>E-mail: demo@example.com</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
