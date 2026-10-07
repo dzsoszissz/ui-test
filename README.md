@@ -22,3 +22,5 @@ open /home/baloghl/ui-test/index.html
 ## Licence
 
 MIT License
+
+itt járt a főnök
